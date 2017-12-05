@@ -1,0 +1,108 @@
+body{
+  background-image:url('/img/backgroundgrid.png');
+  color:rgba(255,255,255,1);
+
+}
+h1, h2, h3, h4{
+  -webkit-text-stroke: 1px #fff;
+  color:rgba(255,255,255,0.5);
+}
+h1{
+  font-size: 3.5rem;
+}
+h2{
+  text-decoration: underline;
+  text-underline-position: under;
+  font-size: 2em;
+}
+h3{
+  margin-bottom: 0;
+}
+.App{
+  width:900px;
+  margin:1em auto;
+}
+.App-header{
+  text-align: center;
+}
+.App-logo{
+  width:150px;
+}
+.outputImage{
+  width:100%;
+}
+.col{
+  float:left;
+  box-sizing: border-box;
+  padding:0 18px;
+  margin:0;
+  border:0;
+}
+.col25{
+  width:25%;
+}
+.col25-offset{
+  margin-left: 25%;
+}
+.col50{
+  width:50%;
+}
+.col100{
+  width:100%;
+}
+.row{
+  width:100%;
+  clear:both;
+}
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+.spaceAbove{
+  padding-top:2em;
+}
+.outputText{
+  font-size: 2em;
+  margin-top: 0;
+}
+table{
+  border-collapse: collapse;
+  width:100%;
+}
+tr{
+  border-top: 1px solid white;
+}
+tr.noBorder{
+  border-top: 0px;
+}
+tr:last-of-type{
+  border-bottom: 1px solid white;
+}
+td{
+  padding:10px;
+}
+td:last-of-type{
+  text-align: right;
+}
+input{
+  height:3em;
+  background-color: rgba(255,255,255,0.2);
+  border: none;
+  color:#fff;
+  font-size: 1em;
+  line-height: 0.5em;
+  height: 2em;
+  text-align: right;
+}
+footer{
+  height: 100px;
+padding-top: 80px;
+text-align: center;
+clear: both;
+}
+.footer-icon{
+  width:50px;
+  padding:3em;
+}
