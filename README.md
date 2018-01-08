@@ -3,7 +3,7 @@
 
 This is a React application. This is not a *good* React application. 
 
-You can learn about react [here](reactjs.org).
+You can learn about react [here](https://reactjs.org).
 
 
 ## Further Info
