@@ -1,7 +1,7 @@
 # Real Engineering Battery
 ### Calculating Battery Capacity Required for Electric Vehicles
 
-This is a React application. This is not a *good* React application. 
+This is a React application.
 
 You can learn about react [here](https://reactjs.org).
 
