@@ -18,6 +18,38 @@ h2{
 h3{
   margin-bottom: 0;
 }
+h4{
+  margin-top:2em;
+}
+a{
+  color:#fff;
+}
+hr{
+  border: 1px solid white;
+}
+.text-right{
+  text-align: right;
+}
+.img-third{
+  width:33%;
+}
+.button-img{
+  height:3em;
+  border: 2px solid white;
+  margin-bottom:2em;
+}
+.button-img:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.patreon-link{
+  position:absolute;
+  top:0;
+  left:0;
+  opacity:0.5;
+}
+.patreon-link:hover{
+  opacity:1;
+}
 .App{
   width:900px;
   margin:1em auto;
@@ -30,6 +62,12 @@ h3{
 }
 .outputImage{
   width:100%;
+}
+.Video-box{
+  width:560px;
+  height:315px;
+  margin:2em auto;
+  border: 3px solid white;
 }
 .col{
   float:left;

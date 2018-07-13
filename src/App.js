@@ -101,8 +101,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="patreon-link">
+          <a href="https://www.patreon.com/realengineering">
+            <img className="img-third" src="/img/patreon.png"/>
+          </a>
+        </div>
         <header className="App-header">
           <img src="/img/logo500.png" className="App-logo" alt="logo" />
+          <div className="Video-box">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oJ8Cf0vWmxE?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
           <h1 className="App-title">Calculating Battery Capacity Required for Electric Vehicles</h1>
         </header>
         <section className="App-content">
@@ -113,7 +121,7 @@ class App extends Component {
               <p className="outputText">${this.state.cost}</p>
             </div>
             <div className="col col50">
-              <img src="/img/tesla1.png" className="outputImage"/>
+              <img src="/img/tesla1.png" alt="A Tesla electric vehicle." className="outputImage"/>
             </div>
             <div className="col col25 spaceAbove">
               <h3>Weight:</h3>
@@ -259,6 +267,8 @@ class App extends Component {
         <footer>
           <a href="https://www.youtube.com/channel/UCR1IuLEqb6UEA_zQ81kwXfg"><img src="/img/logo500.png" className="footer-icon" alt="logo" /></a>
           <a href="https://github.com/aido179/real_engineering_battery"><img src="/img/GitHub-Mark-Light-64px.png" className="footer-icon" alt="logo" /></a>
+          <a href="http://apbsoftware.ie"><img src="/img/apb.png" className="footer-icon" alt="logo" /></a>
+
         </footer>
       </div>
     );
