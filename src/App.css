@@ -1,7 +1,7 @@
 body{
   background-image:url('/img/backgroundgrid.png');
   color:rgba(255,255,255,1);
-
+  overflow-x: hidden;
 }
 h1, h2, h3, h4{
   -webkit-text-stroke: 1px #fff;
@@ -144,3 +144,20 @@ clear: both;
   width:50px;
   padding:3em;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .m100{
+    width:100% !important;
+  }
+  .row::after{
+    content: "";
+    clear: both;
+    display: table
+  }
+  #react-mathjax-preview{
+    width:100%;
+    overflow-x: auto;
+  }
+}
+

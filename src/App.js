@@ -103,13 +103,13 @@ class App extends Component {
       <div className="App">
         <div className="patreon-link">
           <a href="https://www.patreon.com/realengineering">
-            <img className="img-third" src="/img/patreon.png"/>
+            <img className="img-third" src="/img/patreon.png" alt="Patreon logo"/>
           </a>
         </div>
         <header className="App-header">
           <img src="/img/logo500.png" className="App-logo" alt="logo" />
           <div className="Video-box">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/oJ8Cf0vWmxE?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <iframe width="100%" title="The Truth About The Tesla Semi-Truck" height="315" src="https://www.youtube.com/embed/oJ8Cf0vWmxE?rel=0&amp;showinfo=0" frameBorder="0" gesture="media" allow="encrypted-media" allowFullScreen></iframe>
           </div>
           <h1 className="App-title">Calculating Battery Capacity Required for Electric Vehicles</h1>
         </header>
@@ -140,7 +140,7 @@ class App extends Component {
             </div>
           </div>
           <div className="row">
-            <div className="col col50">
+            <div className="col col50 m100">
               <h2>Constants</h2>
               <table>
                 <tbody>
@@ -177,7 +177,7 @@ class App extends Component {
                 </tbody>
               </table>
             </div>
-            <div className="col col50">
+            <div className="col col50 m100">
               <h2>Variables</h2>
               <table>
                 <tbody>
@@ -265,10 +265,9 @@ class App extends Component {
           </div>
         </section>
         <footer>
-          <a href="https://www.youtube.com/channel/UCR1IuLEqb6UEA_zQ81kwXfg"><img src="/img/logo500.png" className="footer-icon" alt="logo" /></a>
-          <a href="https://github.com/aido179/real_engineering_battery"><img src="/img/GitHub-Mark-Light-64px.png" className="footer-icon" alt="logo" /></a>
-          <a href="http://apbsoftware.ie"><img src="/img/apb.png" className="footer-icon" alt="logo" /></a>
-
+          <a href="https://www.youtube.com/channel/UCR1IuLEqb6UEA_zQ81kwXfg"><img src="/img/logo500.png" className="footer-icon" alt="Real Engineering logo" /></a>
+          <a href="https://github.com/aido179/real_engineering_battery"><img src="/img/GitHub-Mark-Light-64px.png" className="footer-icon" alt="Github logo" /></a>
+          <a href="http://apbsoftware.ie"><img src="/img/apb.png" className="footer-icon" alt="APB Software logo" /></a>
         </footer>
       </div>
     );
